@@ -12,4 +12,11 @@ public class HelloController {
 		return "<h1>Welcome to Jenkins </h1>";
 		
 	}
+	
+	@RequestMapping("/Buy")
+	public String GoodBy()
+	{
+		return "<h1>GoodBy to Jenkins </h1>";
+		
+	}
 }
